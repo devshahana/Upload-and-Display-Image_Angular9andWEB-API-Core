@@ -1,0 +1,37 @@
+<div class="container">
+
+
+<div class="row">
+    <div class="col-m8 offset-2">
+       <div class="card-panel teal lighten-2">
+           <h2 class="center white-text"> Employee Information</h2>
+    </div>
+    <form #empForm=ngForm >
+        <div class="row">  
+            <div class="input-field col s12" >
+            <input type="text" #caption ngModel name="caption" id="caption" required>
+            <label for="caption">Caption</label>
+        </div>
+    </div>
+        <img [src]="imageUrl" style="width: 250px;height: 250px;">
+        <input type="file" #image accept="image/*" (change)="HandleInputFIle($event.target.files)">
+        <input type="submit" value="Save" class="btn-large btn-submit"/>
+        <input type="button" value="data" class="btn-large btn-submit" (click)="savedata(caption)" [disabled]="image.value==''|| !empForm.valid"/>
+        <br />
+<span style="font-weight:bold;color:green;" *ngIf="progress > 0 && progress < 100">
+  {{progress}}%
+</span>
+    </form>
+</div>
+<div class="col-m4 offset-2">
+    <h2> All Employee</h2>
+    <table class="table table-bordered">
+        <tr *ngFor="let e of employeeList">
+            <td>{{e.caption}}</td>
+            <td>
+                <img src="http://localhost:50506/{{e.image}}" alt="{{e.caption}}" style="height:150" width="150" class="img" />
+            </td>
+        </tr>
+    </table>
+</div>
+</div>

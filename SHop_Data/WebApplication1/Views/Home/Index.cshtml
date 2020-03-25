@@ -1,0 +1,57 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <table id="tbl" class="table table-bordered">
+        <thead>
+            <tr>
+                <td>
+                    Name
+                </td>
+                <td>
+                    Age
+                </td>
+                <td>
+                    Dob
+                </td>
+                <td></td>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+</div>
+@section scripts{
+    <script src="~/lib/jquery/jquery.js"></script>
+    <script src="~/lib/jqueryui/jquery-ui.min.js"></script>
+    <script src="~/lib/jquery-validate/jquery.validate.js"></script>
+    <script src="~/lib/jquery-unobtrosive/jquery.validate.unobtrusive.js"></script>
+    <link href="~/lib/jqueryui/jquery-ui.css" rel="stylesheet" />
+    @*  <script src="https://cdn.jsdelivr.net/npm/jquery-ajax-unobtrusive@3.2.4/jquery.unobtrusive-ajax.min.js"></script>*@
+    <script>
+    $(document).ready(function () {
+        loadTrainee();
+        });
+        function loadTrainee() {
+            $.ajax({
+                url: "http://localhost:50506/api/Employees",
+                type: "GET"
+            }).done(function (d) {
+                console.log(d)
+                $("#tbl tbody").empty();
+                $.each(d, function (i, v) {
+                    $("#tbl tbody").append("<tr><td>" + v.name + "</td>"
+                        + "<td>" + v.caption + "</td>"
+                        + "<td>" + v.image + "</td>"
+                        + "<td><img src='http://localhost:50506/" + v.image + "' height='150' width='250' /></td>"
+                        + "<td><button onclick='Edit(" + v.id + ")' >Edit</button><button onclick='Delete(" + v.id + ")' >Delete</button></td></tr>"
+                    )
+                })
+            }).fail(function (err) {
+                console.log(err)
+            });
+        }
+    </script>
+    
+    }

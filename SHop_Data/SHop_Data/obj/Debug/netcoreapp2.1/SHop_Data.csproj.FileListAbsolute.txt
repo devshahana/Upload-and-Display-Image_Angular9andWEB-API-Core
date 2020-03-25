@@ -1,0 +1,14 @@
+E:\IDB_CoreCourse\Practice_R41\AngularJS\ALL_Angular\SHop_Data\SHop_Data\bin\Debug\netcoreapp2.1\SHop_Data.deps.json
+E:\IDB_CoreCourse\Practice_R41\AngularJS\ALL_Angular\SHop_Data\SHop_Data\bin\Debug\netcoreapp2.1\SHop_Data.runtimeconfig.json
+E:\IDB_CoreCourse\Practice_R41\AngularJS\ALL_Angular\SHop_Data\SHop_Data\bin\Debug\netcoreapp2.1\SHop_Data.runtimeconfig.dev.json
+E:\IDB_CoreCourse\Practice_R41\AngularJS\ALL_Angular\SHop_Data\SHop_Data\bin\Debug\netcoreapp2.1\SHop_Data.dll
+E:\IDB_CoreCourse\Practice_R41\AngularJS\ALL_Angular\SHop_Data\SHop_Data\bin\Debug\netcoreapp2.1\SHop_Data.pdb
+E:\IDB_CoreCourse\Practice_R41\AngularJS\ALL_Angular\SHop_Data\SHop_Data\obj\Debug\netcoreapp2.1\SHop_Data.csproj.CoreCompileInputs.cache
+E:\IDB_CoreCourse\Practice_R41\AngularJS\ALL_Angular\SHop_Data\SHop_Data\obj\Debug\netcoreapp2.1\SHop_Data.RazorAssemblyInfo.cache
+E:\IDB_CoreCourse\Practice_R41\AngularJS\ALL_Angular\SHop_Data\SHop_Data\obj\Debug\netcoreapp2.1\SHop_Data.RazorAssemblyInfo.cs
+E:\IDB_CoreCourse\Practice_R41\AngularJS\ALL_Angular\SHop_Data\SHop_Data\obj\Debug\netcoreapp2.1\SHop_Data.AssemblyInfoInputs.cache
+E:\IDB_CoreCourse\Practice_R41\AngularJS\ALL_Angular\SHop_Data\SHop_Data\obj\Debug\netcoreapp2.1\SHop_Data.AssemblyInfo.cs
+E:\IDB_CoreCourse\Practice_R41\AngularJS\ALL_Angular\SHop_Data\SHop_Data\obj\Debug\netcoreapp2.1\SHop_Data.RazorTargetAssemblyInfo.cache
+E:\IDB_CoreCourse\Practice_R41\AngularJS\ALL_Angular\SHop_Data\SHop_Data\obj\Debug\netcoreapp2.1\SHop_Data.dll
+E:\IDB_CoreCourse\Practice_R41\AngularJS\ALL_Angular\SHop_Data\SHop_Data\obj\Debug\netcoreapp2.1\SHop_Data.pdb
+E:\IDB_CoreCourse\Practice_R41\AngularJS\ALL_Angular\SHop_Data\SHop_Data\obj\Debug\netcoreapp2.1\SHop_Data.csprojAssemblyReference.cache
